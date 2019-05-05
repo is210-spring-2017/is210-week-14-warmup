@@ -111,7 +111,7 @@ unideal one.
 Specifications
 ^^^^^^^^^^^^^^
 
-#.  Create a module named ``task_01.py``
+#.  Open a new Jupyter notebook
 
 #.  Import the ``pet`` module which has a ``Pet`` class
 
@@ -133,12 +133,6 @@ Specifications
 
         myfunc(**someargs)
 
-.. warning::
-
-    Tests will only be of mild use in this task since they can only detect
-    whether or not the resultant class implements all of the expected
-    attributes. Grading, however, will be dependent upon proper implmentation
-    of arbitrary arguments.
 
 Task 02
 -------
@@ -149,7 +143,7 @@ and with a minimum of developer effort. Here we'll use one to go shopping!
 Specifications
 ^^^^^^^^^^^^^^
 
-#.  Create a file named ``task_02.py``.
+#.  Work on the same notebook
 
 #.  Copy ``data.FRUIT`` into the global namespace via
     ``from data import FRUIT``.
@@ -202,7 +196,7 @@ Specifications
 
         #.  Returns the total cost.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -214,48 +208,6 @@ Examples
     >>> get_total_cost({'Lime': 12, 'Red Pear': 4, 'Peach': 24, 'Beet': 1})
     112.80000000000001
 
-Executing Tests
-===============
-
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
 
 Submission
 ==========
